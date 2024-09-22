@@ -79,7 +79,7 @@ android {
 
     namespace "com.frases_das_maes"
     defaultConfig {
-        applicationId "com.frases_das_maes"
+        applicationId "br.com.devsouza.frases_das_maes"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -117,3 +117,5 @@ dependencies {
         implementation jscFlavor
     }
 }
+
+apply from: file("../../node_modules/react-native-vector-icons/fonts.gradle")
