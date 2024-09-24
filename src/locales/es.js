@@ -1,5 +1,7 @@
 export default {
   home: 'Comenzar',
-  settings: 'Ajustes',
-  Phases_of_mother: 'Phases day of Mother',
-}
+  list: 'Lista',
+  Phases_of_mother: 'Frases de la madre',
+  Premium: 'Premium',
+  Help: 'ayuda',
+};
