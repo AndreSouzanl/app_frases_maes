@@ -3,7 +3,7 @@ export default {
   list: 'Lista',
   Phases_of_mother: 'Frases das Mães',
   Premium: 'Premium',
-  Help: 'Ajuda',
+  help: 'Ajuda',
   about: 'Sobre',
   about_text_1:
     ' Este aplicativo oferece lindas frases para o Dia das Mães, permitindo que você compartilhe mensagens especiais com sua mãe e torne esse dia ainda mais inesquecível.',
@@ -16,4 +16,11 @@ export default {
   screen_tela_de_compartilhamento: 'Tela de Compartilhamento',
   paragrafo_tela_compartilhamento:
     'A tela de compartilhar permite que você personalize as frases ao seu gosto, podendo escolher uma imagem de fundo para personalizar as suas frases, e poder compartilhar com os diversos aplicativos instalados no seu celular como Whatsapp, facebook, instagran etc..',
+
+  premium_vantagens: 'Vantagens Premium',
+  no_ads: 'Sem anuncios',
+  just_one_free: 'Valor Unico',
+  just_one_free1: 'Acesso vitalicio',
+  be_premium: 'ComprarAplicativo',
+  be_restart: 'RestaurarCompra',
 };

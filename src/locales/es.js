@@ -3,7 +3,7 @@ export default {
   list: 'Lista',
   Phases_of_mother: 'Frases de la madre',
   Premium: 'Premium',
-  Help: 'ayuda',
+  help: 'ayuda',
   about: 'sobre',
   about_text_1:
     'Este aplicativo ofrece hermosas frases para el Día de las Madres, permitiéndote compartir mensajes especiales con tu mamá y hacer que este día sea aún más inolvidable.',

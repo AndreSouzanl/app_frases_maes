@@ -9,6 +9,7 @@ import Icon from 'react-native-vector-icons/FontAwesome5';
 import I18n from './src/util/i18n';
 import PremiumScreen from './src/screens/PremiumScreen';
 import HelpScreen from './src/screens/HelpScreen';
+import GlobalStyles from './src/styles/GlobalStyles';
 
 const Tab = createBottomTabNavigator();
 const renderTabIcon = (name: string, color: string) => {
@@ -41,7 +42,15 @@ const PremiumStack = createNativeStackNavigator();
 function PremiumStackScreen() {
   return (
     <PremiumStack.Navigator>
-      <SettingsStack.Screen name="Premium" component={PremiumScreen} />
+      <SettingsStack.Screen
+        name="Premium"
+        component={PremiumScreen}
+        options={{
+          title: I18n.t('Premium'),
+          headerStyle: {backgroundColor: GlobalStyles.colorPrimaryDark.color},
+          headerTintColor: GlobalStyles.colorWhite.color,
+        }}
+      />
     </PremiumStack.Navigator>
   );
 }
@@ -51,7 +60,15 @@ const HelpStack = createNativeStackNavigator();
 function HelpStackScreen() {
   return (
     <HelpStack.Navigator>
-      <SettingsStack.Screen name="Help" component={HelpScreen} />
+      <SettingsStack.Screen
+        name="Help"
+        component={HelpScreen}
+        options={{
+          title: I18n.t('help'),
+          headerStyle: {backgroundColor: GlobalStyles.colorPrimaryDark.color},
+          headerTintColor: GlobalStyles.colorWhite.color,
+        }}
+      />
     </HelpStack.Navigator>
   );
 }
@@ -59,7 +76,12 @@ function HelpStackScreen() {
 function App(): React.JSX.Element {
   return (
     <NavigationContainer>
-      <Tab.Navigator screenOptions={{headerShown: false}}>
+      <Tab.Navigator
+        screenOptions={{
+          headerShown: false,
+          tabBarActiveTintColor: GlobalStyles.colorBotoesBarra.color,
+          tabBarInactiveTintColor: GlobalStyles.colorBlack.color,
+        }}>
         <Tab.Screen
           name="HomeStack"
           component={HomeStackScreen}
@@ -90,7 +112,7 @@ function App(): React.JSX.Element {
           name="HelpStack"
           component={HelpStackScreen}
           options={{
-            title: I18n.t('Help'),
+            title: I18n.t('help'),
             tabBarIcon: ({color}) => renderTabIcon('question', color),
           }}
         />

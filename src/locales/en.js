@@ -3,7 +3,7 @@ export default {
   list: 'List',
   Phases_of_mother: 'Phases day Mother',
   Premium: 'Premium',
-  Help: 'Help',
+  help: 'Help',
   about: 'About',
   about_text_1:
     'This app offers beautiful quotes for Mother’s Day, allowing you to share special messages with your mom and make this day even more unforgettable.',
