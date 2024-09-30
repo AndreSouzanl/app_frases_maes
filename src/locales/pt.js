@@ -20,7 +20,8 @@ export default {
   premium_vantagens: 'Vantagens Premium',
   no_ads: 'Sem anuncios',
   just_one_free: 'Valor Unico',
-  just_one_free1: 'Acesso vitalicio',
+  just_one_free1: 'Acesso vitálicio',
   be_premium: 'ComprarAplicativo',
   be_restart: 'RestaurarCompra',
+  phases_mother: 'Frases',
 };
