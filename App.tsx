@@ -29,7 +29,12 @@ const PhrasesStack = createNativeStackNavigator();
 function PhrasesStackScreen() {
   return (
     <PhrasesStack.Navigator>
-      <PhrasesStack.Screen name="Phrases" component={PhrasesScreen} />
+      <PhrasesStack.Screen name="Phrases" component={PhrasesScreen}
+      options={{
+        title: I18n.t('lista_frases'),
+        headerStyle: {backgroundColor: GlobalStyles.colorBotoesBarra.color},
+        headerTintColor: GlobalStyles.colorWhite.color,
+      }} />
     </PhrasesStack.Navigator>
   );
 }

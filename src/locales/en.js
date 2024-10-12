@@ -16,4 +16,7 @@ export default {
   screen_tela_de_compartilhamento: 'Sharing Screen',
   paragrafo_tela_compartilhamento:
     'The sharing screen allows you to customize the quotes as you like, selecting a background image to personalize your quotes, and sharing them via various apps installed on your phone, such as WhatsApp, Facebook, Instagram, etc.',
+
+
+
 };

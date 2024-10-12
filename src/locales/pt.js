@@ -1,6 +1,7 @@
 export default {
   home: 'Inicio',
   list: 'Lista',
+  lista_frases: 'Lista de Frases',
   Phases_of_mother: 'Frases das Mães',
   Premium: 'Premium',
   help: 'Ajuda',
@@ -24,4 +25,12 @@ export default {
   be_premium: 'ComprarAplicativo',
   be_restart: 'RestaurarCompra',
   phases_mother: 'Frases',
+ 
+  p0: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  p1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  p2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  p3:"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  p4:"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  p5:"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+
 };

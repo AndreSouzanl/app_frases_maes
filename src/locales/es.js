@@ -17,4 +17,6 @@ export default {
   screen_tela_de_compartilhamento: 'Pantalla de Compartir',
   paragrafo_tela_compartilhamento:
     'La pantalla de compartir te permite personalizar las frases a tu gusto, pudiendo elegir una imagen de fondo para personalizar tus frases y compartirlas en diversas aplicaciones instaladas en tu celular como WhatsApp, Facebook, Instagram, etc.',
+
+
 };
