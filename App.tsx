@@ -9,6 +9,7 @@ import PremiumScreen from './src/screens/PremiumScreen';
 import HelpScreen from './src/screens/HelpScreen';
 import GlobalStyles from './src/styles/GlobalStyles';
 import PhrasesScreen from './src/screens/PhrasesScreen';
+import ShareScreen from './src/screens/ShareScreen';
 
 const Tab = createBottomTabNavigator();
 const renderTabIcon = (name: string, color: string) => {
@@ -20,12 +21,24 @@ const HomeStack = createNativeStackNavigator();
 function HomeStackScreen() {
   return (
     <HomeStack.Navigator>
-      <HomeStack.Screen name="Home" component={HomeScreen}
-      options={{
-        title: I18n.t('home'),
-        headerStyle: {backgroundColor: GlobalStyles.colorBotoes.color},
-        headerTintColor: GlobalStyles.colorWhite.color,
-      }} />
+      <HomeStack.Screen
+        name="Home"
+        component={HomeScreen}
+        options={{
+          title: I18n.t('home'),
+          headerStyle: {backgroundColor: GlobalStyles.colorBotoes.color},
+          headerTintColor: GlobalStyles.colorWhite.color,
+        }}
+      />
+      <HomeStack.Screen
+        name="Share"
+        component={ShareScreen}
+        options={{
+          title: I18n.t('share'),
+          headerStyle: {backgroundColor: GlobalStyles.colorBotoes.color},
+          headerTintColor: GlobalStyles.colorWhite.color,
+        }}
+      />
     </HomeStack.Navigator>
   );
 }
@@ -43,6 +56,14 @@ function PhrasesStackScreen() {
           headerTintColor: GlobalStyles.colorWhite.color,
         }}
       />
+      <PhrasesStack.Screen
+        name="Share"
+        component={ShareScreen}
+        options={{
+          title: I18n.t('share'),
+          headerStyle: {backgroundColor: GlobalStyles.colorBotoes.color},
+          headerTintColor: GlobalStyles.colorWhite.color,
+        }} />
     </PhrasesStack.Navigator>
   );
 }

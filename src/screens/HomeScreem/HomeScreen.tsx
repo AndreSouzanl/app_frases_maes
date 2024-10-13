@@ -6,8 +6,9 @@ import Home from './HomeScreen.style';
 import ButtonApp from '../../componentes/ButtonApp';
 import PHRASES from '../../service/PhasesMockService';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import ImageMae = require('../.././assets/images/maes.jpg');
-import { useNavigation } from '@react-navigation/native';
+import {useNavigation} from '@react-navigation/native';
+
+const ImageMae = require('../../assets/images/maes.jpg');
 
 const HomeScreen = () => {
   const navigation = useNavigation<any>();
@@ -53,7 +54,8 @@ const HomeScreen = () => {
         <ImageBackground
           source={ImageMae}
           style={Home.backgroundImage}
-          resizeMode="cover" />
+          resizeMode="cover"
+        />
       </View>
     </View>
   );

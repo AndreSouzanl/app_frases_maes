@@ -5,7 +5,7 @@ import I18n from '../../util/i18n';
 import PremiumSytles from './PremiumScreen.style';
 import ButtonApp from '../../componentes/ButtonApp';
 const imgPremium = require('../../assets/images/coracao.png');
-import ImageMae = require('../../assets/images/diadasmaes.png');
+const ImageMae = require('../../assets/images/diadasmaes.png');
 
 const comprar = () => {
   console.log('Comprar.....');

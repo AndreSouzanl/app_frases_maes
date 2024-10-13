@@ -51,6 +51,7 @@ const GlobalStyles = StyleSheet.create({
     color: '#E91E63',
     textAlign: 'center',
     marginBottom: 10,
+    marginTop: 10,
   },
   paragrafo: {
     textAlign: 'justify',

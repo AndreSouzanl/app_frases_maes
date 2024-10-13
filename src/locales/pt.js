@@ -20,8 +20,8 @@ export default {
   paragrafo_tela_compartilhamento:
     'A tela de compartilhar permite que você personalize as frases ao seu gosto, podendo escolher uma imagem de fundo para personalizar as suas frases, e poder compartilhar com os diversos aplicativos instalados no seu celular como Whatsapp, facebook, instagran etc..',
   premium_vantagens: 'Vantagens Premium',
-  no_ads: 'Sem anuncios',
-  just_one_free: 'Valor Unico',
+  no_ads: 'Sem anúncios',
+  just_one_free: 'Valor único',
   just_one_free1: 'Acesso vitálicio',
   be_premium: 'ComprarAplicativo',
   be_restart: 'RestaurarCompra',
