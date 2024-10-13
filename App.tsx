@@ -20,7 +20,12 @@ const HomeStack = createNativeStackNavigator();
 function HomeStackScreen() {
   return (
     <HomeStack.Navigator>
-      <HomeStack.Screen name="Home" component={HomeScreen} />
+      <HomeStack.Screen name="Home" component={HomeScreen}
+      options={{
+        title: I18n.t('home'),
+        headerStyle: {backgroundColor: GlobalStyles.colorBotoes.color},
+        headerTintColor: GlobalStyles.colorWhite.color,
+      }} />
     </HomeStack.Navigator>
   );
 }
@@ -29,12 +34,15 @@ const PhrasesStack = createNativeStackNavigator();
 function PhrasesStackScreen() {
   return (
     <PhrasesStack.Navigator>
-      <PhrasesStack.Screen name="Phrases" component={PhrasesScreen}
-      options={{
-        title: I18n.t('lista_frases'),
-        headerStyle: {backgroundColor: GlobalStyles.colorBotoesBarra.color},
-        headerTintColor: GlobalStyles.colorWhite.color,
-      }} />
+      <PhrasesStack.Screen
+        name="Phrases"
+        component={PhrasesScreen}
+        options={{
+          title: I18n.t('lista_frases'),
+          headerStyle: {backgroundColor: GlobalStyles.colorBotoes.color},
+          headerTintColor: GlobalStyles.colorWhite.color,
+        }}
+      />
     </PhrasesStack.Navigator>
   );
 }
@@ -49,7 +57,7 @@ function PremiumStackScreen() {
         component={PremiumScreen}
         options={{
           title: I18n.t('Premium'),
-          headerStyle: {backgroundColor: GlobalStyles.colorPrimaryDark.color},
+          headerStyle: {backgroundColor: GlobalStyles.colorBotoes.color},
           headerTintColor: GlobalStyles.colorWhite.color,
         }}
       />
@@ -67,7 +75,7 @@ function HelpStackScreen() {
         component={HelpScreen}
         options={{
           title: I18n.t('help'),
-          headerStyle: {backgroundColor: GlobalStyles.colorPrimaryDark.color},
+          headerStyle: {backgroundColor: GlobalStyles.colorBotoes.color},
           headerTintColor: GlobalStyles.colorWhite.color,
         }}
       />
@@ -81,8 +89,11 @@ function App(): React.JSX.Element {
       <Tab.Navigator
         screenOptions={{
           headerShown: false,
-          tabBarActiveTintColor: GlobalStyles.colorBotoesBarra.color,
-          tabBarInactiveTintColor: GlobalStyles.colorBlack.color,
+          tabBarActiveTintColor: GlobalStyles.colorDourado.color,
+          tabBarInactiveTintColor: GlobalStyles.colorWhite.color,
+          tabBarStyle: {
+            backgroundColor: '#E91E63',
+          },
         }}>
         <Tab.Screen
           name="HomeStack"

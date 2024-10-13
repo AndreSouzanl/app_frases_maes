@@ -3,7 +3,7 @@ import GlobalSytes from "../../styles/GlobalStyles";
 
 const styles = StyleSheet.create({
   botaoCentralizado: {
-    backgroundColor: GlobalSytes.colorBotoesBarra.color,
+    backgroundColor: GlobalSytes.colorBotoes.color,
     height: 60,
     width:300,
     borderRadius: 10,

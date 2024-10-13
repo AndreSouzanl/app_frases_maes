@@ -5,7 +5,7 @@ const PremiumSytles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 10,
-    backgroundColor: GlobalStyles.colorWhite.color,
+    backgroundColor: GlobalStyles.colorPremiumFundo.color,
   },
   containerText: {
     alignItems: 'center',
@@ -17,6 +17,7 @@ const PremiumSytles = StyleSheet.create({
     borderRadius: 10,
     margin: 10,
     flexDirection: 'row',
+    backgroundColor: GlobalStyles.colorPremiumFundo.color,
   },
   viewPremium: {
     alignItems: 'center',
@@ -44,7 +45,7 @@ const PremiumSytles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 20,
     marginBottom: 10,
-    color: GlobalStyles.colorBotoesBarra.color,
+    color: GlobalStyles.colorBotoes.color,
   },
 
   premiumText1: {
@@ -57,6 +58,13 @@ const PremiumSytles = StyleSheet.create({
     width: 30,
     height: 30,
   },
- 
+
+  backgroundImage: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: 500,
+    height: 350,
+  },
 });
 export default PremiumSytles;

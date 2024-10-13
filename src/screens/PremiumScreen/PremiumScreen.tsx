@@ -1,10 +1,11 @@
 import React from 'react';
-import {Image,ScrollView, Text, View} from 'react-native';
+import {Image, ImageBackground, ScrollView, Text, View} from 'react-native';
 import GlobalStyles from '../../styles/GlobalStyles';
 import I18n from '../../util/i18n';
 import PremiumSytles from './PremiumScreen.style';
 import ButtonApp from '../../componentes/ButtonApp';
 const imgPremium = require('../../assets/images/coracao.png');
+import ImageMae = require('../../assets/images/diadasmaes.png');
 
 const comprar = () => {
   console.log('Comprar.....');
@@ -16,7 +17,7 @@ const restaurarCompra = () => {
 
 const PremiumScreen = () => {
   return (
-    <ScrollView style={{backgroundColor: GlobalStyles.colorWhite.color}}>
+    <ScrollView style={{backgroundColor: GlobalStyles.colorPremiumFundo.color}}>
       <View style={PremiumSytles.container}>
         <Text style={PremiumSytles.premiumText}>
           {I18n.t('premium_vantagens')}
@@ -46,6 +47,13 @@ const PremiumScreen = () => {
         icon="heart"
         action={() => restaurarCompra()}
       />
+
+    
+       <ImageBackground
+        source={ImageMae}
+        style={PremiumSytles.backgroundImage}
+        resizeMode="cover"></ImageBackground>
+  
     </ScrollView>
   );
 };

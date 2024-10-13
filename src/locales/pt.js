@@ -2,12 +2,14 @@ export default {
   home: 'Inicio',
   list: 'Lista',
   lista_frases: 'Lista de Frases',
-  Phases_of_mother: 'Frases das Mães',
+  Phases_of_mother: 'Frases Dia Das Mães',
+  Psalms: 'Frases',
+  share: 'Compartilhar',
   Premium: 'Premium',
   help: 'Ajuda',
   about: 'Sobre',
   about_text_1:
-    ' Este aplicativo oferece lindas frases para o Dia das Mães, permitindo que você compartilhe mensagens especiais com sua mãe e torne esse dia ainda mais inesquecível.',
+    'Este aplicativo oferece lindas frases para o Dia das Mães, permitindo que você compartilhe mensagens especiais com sua mãe e torne esse dia ainda mais inesquecível.',
   screen_tela_inicial: 'Tela Inicial',
   paragrafo_tela_inicial:
     'A tela inicial do aplicativo irá trazer diariamente um nova frase das mães para compartilhar. Compartilhe com facilidades para suas maes',
@@ -17,7 +19,6 @@ export default {
   screen_tela_de_compartilhamento: 'Tela de Compartilhamento',
   paragrafo_tela_compartilhamento:
     'A tela de compartilhar permite que você personalize as frases ao seu gosto, podendo escolher uma imagem de fundo para personalizar as suas frases, e poder compartilhar com os diversos aplicativos instalados no seu celular como Whatsapp, facebook, instagran etc..',
-
   premium_vantagens: 'Vantagens Premium',
   no_ads: 'Sem anuncios',
   just_one_free: 'Valor Unico',
@@ -25,12 +26,14 @@ export default {
   be_premium: 'ComprarAplicativo',
   be_restart: 'RestaurarCompra',
   phases_mother: 'Frases',
- 
-  p0: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  p1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  p2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  p3:"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  p4:"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  p5:"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-
+  p0: 'Mãe, sua força e amor incondicional me guiam em cada passo que dou. Feliz Dia das Mães',
+  p1: 'Você é a luz que ilumina meu caminho e o amor que me dá forças. Obrigado por ser minha inspiração todos os dias!',
+  p2: 'Neste Dia das Mães, quero agradecer por cada abraço, conselho e sorriso que tornam meus dias mais especiais',
+  p3: 'Seu amor me ensinou a ser forte, seu carinho me ensinou a ser generoso, e sua presença me ensinou o verdadeiro significado de família',
+  p4: 'Não há palavras suficientes para expressar minha gratidão por tudo o que você faz. Você é o coração que pulsa em minha vida',
+  p5: 'Não há palavras suficientes para expressar minha gratidão por tudo o que você faz. Você é o coração que pulsa em minha vida',
+  p6: 'Não há palavras suficientes para expressar minha gratidão por tudo o que você faz. Você é o coração que pulsa em minha vida',
+  p7: 'Não há palavras suficientes para expressar minha gratidão por tudo o que você faz. Você é o coração que pulsa em minha vida',
+  p8: 'Não há palavras suficientes para expressar minha gratidão por tudo o que você faz. Você é o coração que pulsa em minha vida',
+  p9: 'Não há palavras suficientes para expressar minha gratidão por tudo o que você faz. Você é o coração que pulsa em minha vida',
 };
