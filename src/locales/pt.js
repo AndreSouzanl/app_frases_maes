@@ -8,6 +8,8 @@ export default {
   Premium: 'Premium',
   help: 'Ajuda',
   about: 'Sobre',
+  background:'Lista de Backgrounds',
+  botao: 'SelecionarImagem',
   about_text_1:
     'Este aplicativo oferece lindas frases para o Dia das Mães, permitindo que você compartilhe mensagens especiais com sua mãe e torne esse dia ainda mais inesquecível.',
   screen_tela_inicial: 'Tela Inicial',

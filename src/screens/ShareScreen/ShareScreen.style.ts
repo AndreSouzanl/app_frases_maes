@@ -3,11 +3,17 @@ import GlobalStyles from '../../styles/GlobalStyles';
 
 const share = StyleSheet.create({
   container: {
-    flex: 1,
+    flex: 2,
     padding: 10,
     alignItems: 'center',
   },
   boxShare: {
+    flex: 1,
+    alignItems: 'center',
+    color: '#000',
+    textAlign: 'center',
+  },
+  backgroundImage: {
     flex: 1,
     backgroundColor: '#fff',
     borderColor: GlobalStyles.colorBotoes.color,
@@ -21,13 +27,18 @@ const share = StyleSheet.create({
     color: '#000',
     textAlign: 'justify',
   },
-  backgroundImage: {
+  overlay: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    padding: 20,
-    width: 350,
-    height:350,
+  },
+  color: {
+    backgroundColor: 'rgba(100, 100, 100, 0.3)',
+    padding:14,
+    color: 'white',
+    fontWeight: 'bold',
+    borderRadius: 10,
+    textAlign:'justify'
   },
 });
 export default share;

@@ -48,12 +48,11 @@ const PremiumScreen = () => {
         action={() => restaurarCompra()}
       />
 
-    
-       <ImageBackground
+      <ImageBackground
         source={ImageMae}
         style={PremiumSytles.backgroundImage}
-        resizeMode="cover"></ImageBackground>
-  
+        resizeMode="cover"
+      />
     </ScrollView>
   );
 };

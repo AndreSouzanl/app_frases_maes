@@ -10,6 +10,7 @@ import HelpScreen from './src/screens/HelpScreen';
 import GlobalStyles from './src/styles/GlobalStyles';
 import PhrasesScreen from './src/screens/PhrasesScreen';
 import ShareScreen from './src/screens/ShareScreen';
+import BackgroundScreen from './src/screens/BackgroundScreen';
 
 const Tab = createBottomTabNavigator();
 const renderTabIcon = (name: string, color: string) => {
@@ -39,6 +40,15 @@ function HomeStackScreen() {
           headerTintColor: GlobalStyles.colorWhite.color,
         }}
       />
+      <HomeStack.Screen
+        name="Background"
+        component={BackgroundScreen}
+        options={{
+          title: I18n.t('background'),
+          headerStyle: {backgroundColor: GlobalStyles.colorBotoes.color},
+          headerTintColor: GlobalStyles.colorWhite.color,
+        }}
+      />
     </HomeStack.Navigator>
   );
 }
@@ -61,6 +71,14 @@ function PhrasesStackScreen() {
         component={ShareScreen}
         options={{
           title: I18n.t('share'),
+          headerStyle: {backgroundColor: GlobalStyles.colorBotoes.color},
+          headerTintColor: GlobalStyles.colorWhite.color,
+        }} />
+      <PhrasesStack.Screen
+        name="Background"
+        component={BackgroundScreen}
+        options={{
+          title: I18n.t('background'),
           headerStyle: {backgroundColor: GlobalStyles.colorBotoes.color},
           headerTintColor: GlobalStyles.colorWhite.color,
         }} />
